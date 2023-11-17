@@ -83,6 +83,7 @@
     </div>
 
     <main class="aw-main-section u-position-relative">
+        <div id="skip-nav"></div>
         <div class="u-position-absolute aw-u-opacity-40-mobile bg-blur">
             <img src="/images/bgs/docs-blur-1.svg" alt="" />
         </div>

@@ -234,6 +234,7 @@
     <MobileNav bind:open={$isMobileNavOpen} links={navLinks} />
 
     <main class="aw-main-section" class:aw-u-hide-mobile={$isMobileNavOpen}>
+        <div id="skip-nav"></div>
         <slot />
     </main>
 </div>

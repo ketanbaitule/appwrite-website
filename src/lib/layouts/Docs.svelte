@@ -31,6 +31,24 @@
     }
 </script>
 
+<style>
+    .skip-to-content-link {
+        background: var(--sk-back-1);
+        color: var(--sk-text-2);
+        border: 2px solid var(--sk-text-1);
+        z-index: 1000;
+        padding: 8px;
+        position: absolute;
+        top: 0;
+        -webkit-transform: translateY(-999px);
+        transform: translateY(-999px);
+    }
+
+    .skip-to-content-link:focus {
+        transform: translateY(0%);
+    }
+</style>
+
 <script lang="ts">
     import Search from '$lib/components/Search.svelte';
 
@@ -58,8 +76,17 @@
     });
 
     setContext('isDocs', true);
+
+    function skip_to_main(){
+        let mainElement = document.querySelector('main');
+    
+        if (mainElement) {
+        mainElement.focus();
+        }
+    }
 </script>
 
+<a class="skip-to-content-link" href="#skip-nav">Skip to main content</a>
 <div class="u-position-relative">
     <section class="aw-mobile-header is-transparent">
         <div class="aw-mobile-header-start">
