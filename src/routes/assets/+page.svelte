@@ -113,6 +113,7 @@
                 </div>
             </aside>
             <main class="aw-grid-120-1fr-auto-main /aw-is-mobile-closed">
+                <div id="skip-nav"></div>
                 <div class="aw-content">
                     <section>
                         <p>

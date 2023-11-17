@@ -86,7 +86,7 @@
     }
 </script>
 
-<a class="skip-to-content-link" href="#skiptocontent">Skip to main content</a>
+<a class="skip-to-content-link" href="#skip-nav">Skip to main content</a>
 <div class="u-position-relative">
     <section class="aw-mobile-header is-transparent">
         <div class="aw-mobile-header-start">
@@ -190,7 +190,6 @@
             </div>
         </div>
     </header>
-    <div id="skiptocontent"></div>
     <div
         class={variantClass}
         class:is-open={$layoutState.showSidenav}

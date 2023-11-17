@@ -46,6 +46,7 @@
 </svelte:head>
 
 <main class="aw-main-section">
+    <div id="skip-nav"></div>
     <article class="aw-article">
         <header class="aw-article-header">
             <div class="aw-article-header-start u-flex-vertical aw-u-cross-start">
